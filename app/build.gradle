@@ -23,4 +23,7 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:21.0.3'
     compile 'com.google.android.gms:play-services-maps:7.0.0'
+    compile files('src/main/java/com/nathanbraun/yelpmap/com/nathanbraun/yelpapi/jcommander-1.35.jar')
+    compile files('src/main/java/com/nathanbraun/yelpmap/com/nathanbraun/yelpapi/json_simple-1.1.jar')
+    compile files('src/main/java/com/nathanbraun/yelpmap/com/nathanbraun/yelpapi/scribe-1.3.5.jar')
 }
